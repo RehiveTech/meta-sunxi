@@ -6,9 +6,9 @@ XSERVER = "xserver-xorg \
            xf86-input-keyboard"
 
 PREFERRED_PROVIDER_virtual/kernel = "linux"
-PREFERRED_VERSION_linux-libc-headers = "3.4.61"
+PREFERRED_VERSION_linux-libc-headers = "3.15"
 
-KERNEL_IMAGETYPE = "uImage"
+KERNEL_IMAGETYPE = "zImage"
 
 IMAGE_CLASSES += "sdcard_image-sunxi"
 IMAGE_FSTYPES += "ext3 tar.gz sunxi-sdimg"
